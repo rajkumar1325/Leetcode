@@ -1,9 +1,8 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
-        vector<int> result;
 
-        // using 2 pointer
+        // Assigning 2 pointer
         int left = 0;       //start pointer
         int right = numbers.size() - 1; //end pointer
 
