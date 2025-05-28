@@ -16,7 +16,7 @@ public:
                 return i;
             }
 
-            rightSum = (rightSum - nums[i]) ;
+            rightSum -= nums[i] ;
         }
         
         return -1;
